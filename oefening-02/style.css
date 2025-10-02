@@ -7,6 +7,9 @@ aside {
   box-shadow: 3px 4px 20px 0px gray;
 
   /* positioneer dit element in de rechterbenedenhoek */
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
 
 /* General Styles */

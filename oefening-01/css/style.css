@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(244, 241, 241);
+}
+
+figure {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px rgb(189, 187, 187);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-image {
+  border-radius: 50%;
+  border: 3px purple solid;
+  padding: 3px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-desc {
+  font-size: 16px;
+  color: rgb(149, 145, 145);
+  margin-bottom: 20px;
+}
+
+.profile-contact {
+  font-size: 12px;
+  padding: 1rem;
+}
+
+figcaption, .profile-image {
+  position: relative;
+  top: -65px;
+}
